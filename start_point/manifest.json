@@ -8,7 +8,7 @@
     "gomock",
     "0.6.0"
   ],
-  "image_name": "ghcr.io/cyber-dojo-languages/go_gomock:0000000",
+  "image_name": "ghcr.io/cyber-dojo-languages/go_gomock:5c26336",
   "visible_filenames": [
     "hiker_test.go",
     "hiker.go",
