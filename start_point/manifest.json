@@ -1,0 +1,25 @@
+{
+  "display_name": "Go 1.26.1, gomock 0.6.0",
+  "language": [
+    "Go",
+    "1.26.1"
+  ],
+  "test_framework": [
+    "gomock",
+    "0.6.0"
+  ],
+  "image_name": "ghcr.io/cyber-dojo-languages/go_gomock:0000000",
+  "visible_filenames": [
+    "hiker_test.go",
+    "hiker.go",
+    "go.mod",
+    "go.sum",
+    "cyber-dojo.sh"
+  ],
+  "rag_lambda": "red_amber_green.rb",
+  "filename_extension": [
+    ".go"
+  ],
+  "max_seconds": 15,
+  "tab_size": 4
+}
