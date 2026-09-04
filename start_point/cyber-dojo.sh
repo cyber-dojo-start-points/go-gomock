@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # --------------------------------------------------------------
-# Every text file here is returned to your kata after a [test] press, and
+# Every text file here is returned to your kata after a test run, and
 # mockgen writes one file for each interface it mocks. Those are written
-# again from scratch on the next press, so an edit to one would be thrown
+# again from scratch on the next run, so an edit to one would be thrown
 # away; they are removed here rather than handed back to you.
 #
 # What is matched is the line mockgen puts at the top of every file it
@@ -34,7 +34,7 @@ export GOPROXY=off
 # Do not check a module's checksum against the public checksum database.
 export GONOSUMDB='*'
 # Packages compiled once when this container's image was built. Reusing them
-# is what makes a press quick; without it every press recompiles gomock.
+# is what makes a test run quick; without it every run recompiles gomock.
 export GOCACHE=/go/build-cache
 
 # --------------------------------------------------------------
@@ -49,6 +49,6 @@ export GOCACHE=/go/build-cache
 # named anything else will not run.
 GO_TEST_OPTS=()
 GO_TEST_OPTS+=(-v)        # name each test as it runs, so you can see which ran
-GO_TEST_OPTS+=(-count=1)  # run them every press, not reprint an earlier result
+GO_TEST_OPTS+=(-count=1)  # run them every time, not reprint an earlier result
 
 go generate ./... && go test "${GO_TEST_OPTS[@]}" ./...
