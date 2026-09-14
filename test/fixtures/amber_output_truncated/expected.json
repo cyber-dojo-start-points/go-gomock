@@ -1,0 +1,9 @@
+{
+  "matches": [ "^debug: i is 1, total is 2$" ],
+  "match_counts": {
+    "^debug: i is 0, total is 1$": 1,
+    "^PASS$": 0,
+    "^ok[[:space:]]+cyber-dojo-go-gomock": 0
+  },
+  "truncated": true
+}

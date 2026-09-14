@@ -1,0 +1,11 @@
+{
+  "match_counts": {
+    "^--- FAIL: ": 1,
+    "^--- FAIL: Test_the_answer_is_three_digits_long ": 1,
+    "^ +expected call at .*answer_size_test\\.go:[0-9]+ ": 1,
+    "^--- PASS: Test_life_the_universe_and_everything ": 1,
+    "^FAIL$": 2,
+    "^FAIL[[:space:]]+cyber-dojo-go-gomock[[:space:]]": 1,
+    "^PASS$": 0
+  }
+}

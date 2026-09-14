@@ -1,0 +1,13 @@
+{
+  "match_counts": {
+    "^--- FAIL: ": 3,
+    "^--- FAIL: Test_life_the_universe_and_everything ": 1,
+    "^--- FAIL: Test_the_answer_is_announced_twice ": 1,
+    "^--- FAIL: Test_the_answer_is_not_the_question ": 1,
+    "^ +controller\\.go:[0-9]+: missing call\\(s\\) to ": 3,
+    "Unexpected call to ": 2,
+    "^FAIL$": 2,
+    "^FAIL[[:space:]]+cyber-dojo-go-gomock[[:space:]]": 1,
+    "^PASS$": 0
+  }
+}

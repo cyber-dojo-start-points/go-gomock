@@ -1,0 +1,9 @@
+{
+  "match_counts": {
+    "^--- FAIL: Test_life_the_universe_and_everything ": 1,
+    "^panic: runtime error: index out of range \\[2\\] with length 2 ": 1,
+    "^FAIL[[:space:]]+cyber-dojo-go-gomock[[:space:]]": 1,
+    "^FAIL$": 1,
+    "^PASS$": 0
+  }
+}

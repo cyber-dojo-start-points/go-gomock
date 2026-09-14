@@ -1,0 +1,9 @@
+{
+  "match_counts": {
+    "Loading input failed: failed parsing source file hiker\\.go: hiker\\.go:[0-9]+:[0-9]+: expected '\\}', found 'EOF'$": 1,
+    "^hiker\\.go:[0-9]+: running \"mockgen\": exit status 1$": 1,
+    "^ok[[:space:]]": 0,
+    "^FAIL": 0,
+    "^PASS$": 0
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "match_counts": {
+    "^\\./hiker\\.go:[0-9]+:[0-9]+: undefined: multiplier$": 1,
+    "^\\./hiker\\.go:[0-9]+:[0-9]+: undefined: digitCount$": 1,
+    "^FAIL[[:space:]]+cyber-dojo-go-gomock \\[build failed\\]$": 1,
+    "^PASS$": 0,
+    "^--- FAIL: ": 0
+  }
+}

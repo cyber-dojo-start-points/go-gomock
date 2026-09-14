@@ -1,0 +1,12 @@
+{
+  "max_output_lines": 18,
+  "match_counts": {
+    "^--- PASS: ": 3,
+    "^--- PASS: Test_life_the_universe_and_everything ": 1,
+    "^--- PASS: Test_the_answer_is_announced_once ": 1,
+    "^--- PASS: Test_the_answer_is_not_the_question ": 1,
+    "^PASS$": 1,
+    "^ok[[:space:]]+cyber-dojo-go-gomock[[:space:]]": 1,
+    "^--- FAIL: ": 0
+  }
+}

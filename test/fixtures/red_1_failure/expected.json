@@ -1,0 +1,12 @@
+{
+  "match_counts": {
+    "^--- FAIL: Test_life_the_universe_and_everything ": 1,
+    "^ +hiker\\.go:[0-9]+: Unexpected call to \\*hiker\\.MockListener\\.OnAnswer\\(\\[54\\]\\) ": 1,
+    "^ +Got: 54 \\(int\\)$": 1,
+    "^ +Want: is equal to 42 \\(int\\)$": 1,
+    "^ +controller\\.go:[0-9]+: missing call\\(s\\) to ": 1,
+    "^FAIL$": 2,
+    "^FAIL[[:space:]]+cyber-dojo-go-gomock[[:space:]]": 1,
+    "^PASS$": 0
+  }
+}

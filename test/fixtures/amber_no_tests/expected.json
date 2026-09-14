@@ -1,0 +1,10 @@
+{
+  "matches": [ "^testing: warning: no tests to run$" ],
+  "match_counts": {
+    "^testing: warning: no tests to run$": 1,
+    "^PASS$": 1,
+    "^ok[[:space:]]+cyber-dojo-go-gomock.*\\[no tests to run\\]$": 1,
+    "^--- PASS: ": 0,
+    "^--- FAIL: ": 0
+  }
+}
