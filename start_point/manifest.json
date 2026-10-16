@@ -1,14 +1,14 @@
 {
-  "display_name": "Go 1.26.1, gomock 0.6.0",
+  "display_name": "Go 1.27.2, gomock 0.6.0",
   "language": [
     "Go",
-    "1.26.1"
+    "1.27.2"
   ],
   "test_framework": [
     "gomock",
     "0.6.0"
   ],
-  "image_name": "ghcr.io/cyber-dojo-languages/go_gomock:5c26336",
+  "image_name": "ghcr.io/cyber-dojo-languages/go_gomock:2375011@sha256:982d466d3b408f9a5ef80fd8ac1730db81456acaa6753311d419fc449bc4d49b",
   "visible_filenames": [
     "hiker_test.go",
     "hiker.go",
